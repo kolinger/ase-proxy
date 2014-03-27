@@ -3,9 +3,14 @@ ASE proxy
 
 Simple proxy for Agent Simulation Environment
 
+Requirements
+------------
+- git
+- node.js
+- ZeroMQ binaries http://zeromq.org/area:download
+
 Install
 -------
-- download and install ZeroMQ binaries http://zeromq.org/area:download
 - npm install zmq
 - git clone https://github.com/kolinger/ase-proxy.git
 
