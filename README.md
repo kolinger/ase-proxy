@@ -1,13 +1,13 @@
 ASE proxy
 =========
 
-Simple proxy for Agent Simulation Environment
+Proxy for Agent Simulation Environment
 
 Requirements
 ------------
 - git
 - node.js
-- ZeroMQ binaries http://zeromq.org/area:download
+- ZeroMQ 3.2.3
 
 Install
 -------
@@ -16,4 +16,4 @@ Install
 
 Running
 -------
-`./run.bat` or `./run.sh` will run proxy on all interfaces, router on port 10000 and publisher on 20000
+`node src/app.js 127.0.0.1:10000 127.0.0.1:20000` first address is for broadcaster, second for subscriber
